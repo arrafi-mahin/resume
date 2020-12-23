@@ -11,7 +11,16 @@
 
     .port-item{
         width: 30%;
+
+        &:hover{
+            cursor: pointer;
+            
+            
+        }
     }
+
+
+
 }
 @media (min-width: 1199px) {
     .port-item {

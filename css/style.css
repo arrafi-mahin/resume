@@ -12,6 +12,10 @@
   width: 30%;
 }
 
+#main-header .port-item:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 1199px) {
   .port-item {
     padding: 3em !important;
