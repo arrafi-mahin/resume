@@ -1,0 +1,20 @@
+#main-header img {
+  height: 100%;
+  width: 100%;
+}
+
+#main-header .bg-black {
+  color: white;
+  background: black;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
