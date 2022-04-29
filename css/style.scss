@@ -1,29 +1,25 @@
-#main-header{
-    img{
-        height: 100%;
-        width: 100%; 
-    }
+#main-header {
+  img {
+    height: 100%;
+    width: 100%;
+  }
 
-    .bg-black{
-        color: white;
-        background: black;
-    }
+  .bg-black {
+    color: white;
+    background: black;
+  }
 
-    .port-item{
-        width: 30%;
+  .port-item {
+    width: 30%;
 
-        &:hover{
-            cursor: pointer;
-            
-            
-        }
-    }
-
-
-
-}
-@media (min-width: 1199px) {
-    .port-item {
-      padding: 3em !important;
+    &:hover {
+      cursor: pointer;
     }
   }
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
